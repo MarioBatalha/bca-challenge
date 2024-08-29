@@ -14,11 +14,9 @@ export const Filter: FC = () => {
     form,
     model,
     bidValue,
-    vehicles,
     handleFavourite,
     handleFilterByMake,
     handleFilterByModel,
-    handleSortVehicles,
     handleFilterByRange,
   } = useVehicle();
 
@@ -114,7 +112,7 @@ export const Filter: FC = () => {
               Bid range:
             </Label>
             <H1 color="#5F5F5B" fontWeight="400" fontSize="1rem">
-              ${bidValue}
+              {formatPrice(bidValue)}
             </H1>
           </Div>
           <Input

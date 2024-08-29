@@ -2,6 +2,7 @@ import { Button, Div } from '@stylin.js/elements';
 import { FC, } from 'react';
 import { PAGE_NUMBER } from '@/constants';
 import { useVehicle } from '@/constants/context';
+import { v4 } from 'uuid';
 
 const Pagination: FC = () => {
   const { handlePagination, vehicles } = useVehicle();
@@ -18,6 +19,7 @@ const Pagination: FC = () => {
       {PAGE_NUMBER.map((value) => {
         return (
           <Button
+            key={v4()}
             p="0.5rem"
             mr="0.5rem "
             height="2rem"
