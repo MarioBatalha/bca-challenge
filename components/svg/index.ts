@@ -1,0 +1,11 @@
+export { default as ArrowDownSVG } from './arrow-down';
+export { default as CalendarSVG } from './calendar';
+export { default as ComputerEyesSVG } from './computer-eyes';
+export { default as DiedComputerSVG } from './died-computer';
+export { default as EngineSVG } from './engine';
+export { default as EyeSVG } from './eye';
+export { default as FolderSVG } from './folder';
+export { default as FuelSVG } from './fuel';
+export { default as HeartSVG } from './heart';
+export { default as LogoSVG } from './logo';
+export { default as MileageSVG } from './mileage';
